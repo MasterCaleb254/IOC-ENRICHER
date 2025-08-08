@@ -1,0 +1,67 @@
+### 8.8.8.8 (ip)
+
+#### VIRUSTOTAL
+- **last_analysis_stats**: {'malicious': 0, 'suspicious': 0, 'undetected': 33, 'harmless': 61, 'timeout': 0}
+- **country**: US
+- **reputation**: 556
+- **tags**: []
+
+#### SHODAN
+- **ports**: [443, 53]
+- **hostnames**: ['dns.google']
+- **org**: Google LLC
+- **asn**: AS15169
+- **isp**: Google LLC
+
+#### ABUSEIPDB
+- **abuse_confidence_score**: 0
+- **total_reports**: 7
+- **isp**: Google LLC
+- **usage_type**: Content Delivery Network
+
+#### MITRE
+- **techniques**: []
+- **tactics**: []
+- **actors**: []
+
+### example.com (domain)
+
+#### VIRUSTOTAL
+- **last_analysis_stats**: {'malicious': 0, 'suspicious': 0, 'undetected': 29, 'harmless': 65, 'timeout': 0}
+- **country**: None
+- **reputation**: 8
+- **tags**: []
+
+#### OTX
+- **pulse_info**: {'count': 50, 'pulses': ['Microsoft Phishing Collection', 'Tines API Pulse Example', 'Microsoft Phishing Collection - Follow: https://twitter.com/noladefense', 'Feebs worm  | Residential Rental Community Denver, Co', 'LeadIQ  | The Smart B2B Prospecting Platform | Malware Packed | Agent Tesla & more', 'Goodreads Malware', 'Cycbot & worse - Palantir Monitoring Target/s', '', 'Attack on LevelBlue - OTX | Stealer? Cloudfront?', 'AWS (DGA) Network Rats - Unknown Cyber defense entity threats', 'WebForm.com.gov.pl/CEIDG/ScriptResource.axd', 'Likely malicious Google Analytics Alternative - App &amp; Web Analytics - Matomo', 'Sąd Rejonowy w Jeleniej Gorze  POLAND', 'ld869rwRuHeO9Tw.exe   1d773d866966940f042d442b9e0cec638e733a83f7137cbdd4e70d4cb9803ada', 'macOS Threat Infrastructure Leveraging Remote Agents via remotewd.com and rtmsprod.net', 'MacOS M2 Chip Infiltration: Game Center & XBOX Pod Game & Chat Server', 'SCANID: S-KhOoOrXsco8: Thor Lite Linux 64 - Sample Lab Device 2 - incomplete (not enriched)', 'nieprawidłowa_struktura_przyczepy aplikacja_ceidg_gov_pl_fullexport_2023_12_12 .pdf', '1026520 - Erroneous CSP reports for hash-source', 'Thor Linux Lite Scan - Sample Device & SG2 - 02.07.25 - Unenriched', 'n0paste - Show paste: \\"No Problems\\" - dos meses del URLscan', 'RFC 6797: HTTP Strict Transport Security (HSTS)', 'RFC 7230 - Hypertext Transfer Protocol (HTTP/1.1): Message Syntax and Routing', 'dragonforce.io', 'dragonforce.io', 'NetworkExtension.Framework', 'The Jane Doe Syndrome Files: Credential Dumping and Data Exfiltration', 'The Real Jane Doe Syndrome Files', 'Cerber » Charter Communications » Spectrum Denver', "Hijacked 'Operation Endgame' Tofsee  Ransomware", 'UPX executable packer.', 'Yoda Crypter | Vtapi Virustotal Ransomware | X.Com |  Twitter | Remote Job', 'Yoda Crypter | Vtapi Virustotal Ransomware | X.Com |  Twitter | Remote Job', 'Live Domains List', 'DDoS:Linux/Lightaidra | Mirai Botnet on US a State Computer', 'Black Tech', '"C:\\Windows\\SysWOW64\\MailContactsCalendarSync\\LiveDomainList.txt"', 'Trojan:Win32/Predator - walmartmobile.cn', 'Tofsee Botnet: Google.com.uy | Install | Injection | Pegasus Monitoring', 'The Org : FormBook CnC | Pykspa', 'CrypterX-gen | Video-lal.com | M. Brian Sabey • Hall Render | Rexxfield', 'FormBook', 'FormBook | 172.31.13.249', 'Original State ', 'Software Packing | Mirai • Emotet • Pottieq | Mercer Museum Library', 'Software Packing | Mirai • Emotet • Pottieq | Mercer Museum ', 'Private Loader cyber threat - Sliq.net | https://house.mo.gov', 'Private Loader cyber threat - Sliq.net | https://house.mo.gov ', 'Lumma Stealer | Colorado Medical Center HCA', 'Hacked Browser • DOS • Sinkholed']}
+- **whois**: http://whois.domaintools.com/example.com
+- **passive_dns**: []
+
+### 6a4d8d7e5b6a9b8e7c6a5d8e7f6a5d8e (hash)
+
+#### OTX
+- **pulse_info**: {'count': 0, 'pulses': []}
+
+#### MITRE
+- **techniques**: []
+- **tactics**: []
+- **actors**: []
+
+### 2001:0db8:85a3:0000:0000:8a2e:0370:7334 (ip)
+
+#### VIRUSTOTAL
+- **last_analysis_stats**: {'malicious': 0, 'suspicious': 0, 'undetected': 34, 'harmless': 60, 'timeout': 0}
+- **country**: None
+- **reputation**: 0
+- **tags**: ['private']
+
+#### ABUSEIPDB
+- **abuse_confidence_score**: 0
+- **total_reports**: 0
+- **isp**: Documentation RFC3849
+- **usage_type**: Reserved
+
+#### MITRE
+- **techniques**: []
+- **tactics**: []
+- **actors**: []

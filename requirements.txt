@@ -1,0 +1,12 @@
+# Core dependencies
+click==8.1.7
+requests==2.31.0
+python-dotenv==1.0.0
+pyyaml==6.0.1
+
+# Database/caching
+tinydb==4.8.0
+
+# Testing
+pytest==7.4.0
+responses==0.23.3
