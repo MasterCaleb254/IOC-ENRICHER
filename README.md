@@ -81,4 +81,4 @@ Sample Input File
 Sample Output File (Placeholder)
 
 🎬 Demo Video
-<video controls src="dashboard_demo-1.mp4" title="Title"></video>
+https://youtu.be/z63Pb1SQjEI
