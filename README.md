@@ -1,5 +1,7 @@
 # IOC Enrichment & Correlation Tool
 
+![IOC Enricher Banner](docs/assets/images/banner.png)
+
 ## 🔎 Background & Motivation
 The **IOC Enrichment & Correlation Tool** is a powerful cybersecurity utility designed to automate the analysis and enrichment of Indicators of Compromise (IOCs). By integrating with multiple threat intelligence providers, it provides security analysts with a unified view of potential threats.
 
@@ -9,7 +11,7 @@ This tool streamlines the workflow for SOC analysts, incident responders, and th
 - **Broad Support**: Handles various IOC types including IPs, Domains, and Hashes.
 
 ## ✨ Features
- 
+
 ### 🛡️ Supported IOC Types
 - **IP Addresses**: IPv4 and IPv6.
 - **Domains**: Standard domain names.
@@ -25,6 +27,9 @@ The tool integrates with the following services (API keys required):
 ### 💻 Multiple Interfaces
 1.  **Command-Line Interface (CLI)**: For quick, scriptable enrichment tasks.
 2.  **Web Dashboard (Flask)**: A modern UI for file uploads and visual results.
+    
+    ![Web Dashboard Interface](docs/assets/images/dashboard.png)
+
 3.  **Directory Watcher**: Automated processing of files dropped into a specific folder.
 4.  **REST API (FastAPI)**: High-performance endpoint for integration with other tools (SOAR, SIEM).
 
@@ -118,14 +123,61 @@ Start the API server for programmatic access.
 
 ```bash
 uvicorn api:app --reload
-Then, go to http://127.0.0.1:8000/docs to test the API endpoint.
+```
+- **API URL**: `http://127.0.0.1:8000`
+- **Documentation**: `http://127.0.0.1:8000/docs` (Swagger UI)
 
-📂 Sample Inputs/Outputs
-This project includes an examples/ directory containing a sample input_iocs.json file. The output of the enrichment process is stored in the output/ directory.
+---
 
-Sample Input File
+## 📂 Input & Output Formats
 
-Sample Output File (Placeholder)
+### Input Structure
+The tool supports **JSON** and **CSV** files.
 
-🎬 Demo Video
-<video controls src="dashboard_demo-1.mp4" title="Title"></video>
+**JSON Example (`examples/input_iocs.json`):**
+```json
+{
+  "iocs": [
+    "8.8.8.8",
+    "google.com",
+    "44d88612fea8a8f36de82e1278abb02f"
+  ]
+}
+```
+
+**CSV Example:**
+```csv
+8.8.8.8
+google.com
+44d88612fea8a8f36de82e1278abb02f
+```
+*(The first column is read as the IOC)*
+
+### Output Location
+By default, results are printed to the console unless an output file is specified. The `watch` and `web` modes typically save to the `output/` directory.
+
+---
+
+## 🏗️ Project Structure
+```
+ioc-enricher/
+├── api.py              # FastAPI application
+├── app.py              # Flask web dashboard
+├── main.py             # CLI entry point
+├── watcher.py          # Directory watcher script
+├── enrichers/          # Modules for each threat intel source
+├── formatters/         # Output formatting logic
+├── utils/              # Helper functions (parsing, classification)
+├── templates/          # HTML templates for the dashboard
+├── watch/              # Directory for the watcher to monitor
+├── output/             # Default output directory
+└── requirements.txt    # Project dependencies
+```
+
+## 🤝 Contributing
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+## 🎬 Demo
+<video controls src="dashboard_demo-1.mp4" title="Dashboard Demo"></video>
+
+[Watch on YouTube](https://youtu.be/z63Pb1SQjEI)
