@@ -178,6 +178,6 @@ ioc-enricher/
 Contributions are welcome! Please feel free to submit a Pull Request.
 
 ## 🎬 Demo
-<video controls src="dashboard_demo-1.mp4" title="Dashboard Demo"></video>
+[![Watch the Demo](docs/assets/images/dashboard.png)](https://youtu.be/z63Pb1SQjEI)
 
-[Watch on YouTube](https://youtu.be/z63Pb1SQjEI)
+*Click the image above to watch the walkthrough on YouTube.*
