@@ -118,59 +118,14 @@ Start the API server for programmatic access.
 
 ```bash
 uvicorn api:app --reload
-```
-- **API URL**: `http://127.0.0.1:8000`
-- **Documentation**: `http://127.0.0.1:8000/docs` (Swagger UI)
+Then, go to http://127.0.0.1:8000/docs to test the API endpoint.
 
----
+📂 Sample Inputs/Outputs
+This project includes an examples/ directory containing a sample input_iocs.json file. The output of the enrichment process is stored in the output/ directory.
 
-## 📂 Input & Output Formats
+Sample Input File
 
-### Input Structure
-The tool supports **JSON** and **CSV** files.
+Sample Output File (Placeholder)
 
-**JSON Example (`examples/input_iocs.json`):**
-```json
-{
-  "iocs": [
-    "8.8.8.8",
-    "google.com",
-    "44d88612fea8a8f36de82e1278abb02f"
-  ]
-}
-```
-
-**CSV Example:**
-```csv
-8.8.8.8
-google.com
-44d88612fea8a8f36de82e1278abb02f
-```
-*(The first column is read as the IOC)*
-
-### Output Location
-By default, results are printed to the console unless an output file is specified. The `watch` and `web` modes typically save to the `output/` directory.
-
----
-
-## 🏗️ Project Structure
-```
-ioc-enricher/
-├── api.py              # FastAPI application
-├── app.py              # Flask web dashboard
-├── main.py             # CLI entry point
-├── watcher.py          # Directory watcher script
-├── enrichers/          # Modules for each threat intel source
-├── formatters/         # Output formatting logic
-├── utils/              # Helper functions (parsing, classification)
-├── templates/          # HTML templates for the dashboard
-├── watch/              # Directory for the watcher to monitor
-├── output/             # Default output directory
-└── requirements.txt    # Project dependencies
-```
-
-## 🤝 Contributing
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-## 🎬 Demo
-<video controls src="dashboard_demo-1.mp4" title="Dashboard Demo"></video>
+🎬 Demo Video
+<video controls src="dashboard_demo-1.mp4" title="Title"></video>
