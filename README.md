@@ -9,7 +9,7 @@ This tool streamlines the workflow for SOC analysts, incident responders, and th
 - **Broad Support**: Handles various IOC types including IPs, Domains, and Hashes.
 
 ## ✨ Features
-
+ 
 ### 🛡️ Supported IOC Types
 - **IP Addresses**: IPv4 and IPv6.
 - **Domains**: Standard domain names.
