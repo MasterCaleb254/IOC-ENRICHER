@@ -10,6 +10,11 @@ This tool streamlines the workflow for SOC analysts, incident responders, and th
 - **Multiple Interfaces**: Choose between a Command-Line Interface (CLI), a real-time Web Dashboard, a Directory Watcher, or a REST API.
 - **Broad Support**: Handles various IOC types including IPs, Domains, and Hashes.
 
+## 🎬 Demo
+[![Watch the Demo](docs/assets/images/dashboard_video.png)](https://youtu.be/z63Pb1SQjEI)
+
+*Click the image above to watch the walkthrough on YouTube.*
+
 ## ✨ Features
 
 ### 🛡️ Supported IOC Types
@@ -177,7 +182,3 @@ ioc-enricher/
 ## 🤝 Contributing
 Contributions are welcome! Please feel free to submit a Pull Request.
 
-## 🎬 Demo
-[![Watch the Demo](docs/assets/images/dashboard_video.png)](https://youtu.be/z63Pb1SQjEI)
-
-*Click the image above to watch the walkthrough on YouTube.*
